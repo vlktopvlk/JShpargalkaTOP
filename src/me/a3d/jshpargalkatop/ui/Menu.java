@@ -1,4 +1,4 @@
-package me.a3d.jshpargalkatop.main;
+package me.a3d.jshpargalkatop.ui;
 
 
 import java.util.Scanner;
