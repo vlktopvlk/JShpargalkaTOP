@@ -1,6 +1,11 @@
-import me.a3d.jshpargalkatop.ui.Menu;
+import me.a3d.jshpargalkatop.ui.MainFrame;
+
+import javax.swing.SwingUtilities;
 
 void main() {
     IO.println("Запуск программы Шпаргалка v0.1.0...");
-    Menu.showMainMenu();
+    SwingUtilities.invokeLater(()->{
+        MainFrame frame = new MainFrame();
+        frame.setVisible(true);
+    });
 }
