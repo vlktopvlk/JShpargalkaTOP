@@ -1,3 +1,4 @@
+//package me.a3d.jspargalkatop.main;
 import me.a3d.jshpargalkatop.ui.MainFrame;
 
 import javax.swing.SwingUtilities;
